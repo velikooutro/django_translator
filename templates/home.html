@@ -1,0 +1,13 @@
+<!doctype html>
+<header>
+	<title>Piglatin Translator</title>
+</header>
+<body>
+	<h1>This is a Piglatin Translator</h1>
+	<form action="{% url 'translate' %}">
+		<input type="text" name="originaltext">
+		<br>
+		<input type="submit" value="Translate!">
+	</form>
+</body>
+</html>
